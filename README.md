@@ -1,0 +1,1 @@
+A sweet little website design I made in class one time we had some spare time to do what we wanted. I had just found out about flex and how to set it up using borders, so cute! Pretty solid design, that I made ccompletely from scratch! proud of my earlier webnoob self. 
