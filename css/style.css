@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+.container {
+  margin: 0 auto;
+  width: min(100%, 1920px);
+  height: 100vh;
+}
+.header {
+  height: 800px;
+  background-image: url(../img/lucas-t-lgZ1nzlfKFM-unsplash.jpg);
+  background-size: cover;
+  background-position: left -90px;
+  box-shadow: inset 5px 5px 50px 30px black;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+.text {
+  display: flex;
+  width: 750px;
+  list-style-type: none;
+  padding-top: 10px;
+}
+.number {
+  padding-top: 10px;
+}
+a {
+  color: rgb(200, 205, 222);
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-shadow: 0px 5px 10px black;
+}
+.fa-light,
+.fa-phone {
+  color: #fff;
+  height: 20px;
+  width: 20px;
+}
+.fa-solid,
+.fa-house {
+  color: #fff;
+  height: 20px;
+  width: 20px;
+  padding-left: 15px;
+}
+.number a {
+  color: rgb(200, 205, 222);
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 1px;
+  cursor: pointer;
+}
+.number a:hover {
+  color: red;
+}
+.number {
+  width: 200px;
+}
+.price {
+  height: 540px;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+}
+.price-text {
+  height: 260px;
+  width: 750px;
+  margin: 40px;
+}
+h4 {
+  color: rgb(200, 205, 222);
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  padding: 10px 10px 10px 0px;
+  text-shadow: 0px 10px 10px black;
+  font-style: italic;
+}
+button {
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(197, 0, 0);
+  font-family: "Raleway", sans-serif;
+}
+h2 {
+  font-size: 60px;
+  letter-spacing: 1.5px;
+  color: #d6d6d6;
+  text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.651);
+}
+/* ===4 PICTURE SECTION==== */
+section {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.box {
+  display: flex;
+  height: 230px;
+  flex: 1;
+  margin-top: 20px;
+  background-color: rgb(231, 231, 231);
+  transition: 0.3s ease;
+}
+.box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.249);
+  cursor: pointer;
+}
+.img-1 {
+  display: flex;
+  flex: 1;
+  width: 230px;
+  height: 230px;
+  background-image: url(../img/lucas-t-PygTUgJRNmw-unsplash.jpg);
+  background-size: 300px;
+  background-position: center;
+}
+.img-2 {
+  display: flex;
+  flex: 1;
+  width: 230px;
+  height: 230px;
+  background-image: url(../img/lucas-t-BIztIhCOVOc-unsplash.jpg);
+  background-size: 300px;
+  background-position: bottom;
+}
+.img-3 {
+  display: flex;
+  flex: 1;
+  width: 230px;
+  height: 230px;
+  background-image: url(../img/jusdevoyage-ZAFpiVgZNng-unsplash.jpg);
+  background-size: 300px;
+  background-position: top;
+}
+.img-4 {
+  display: flex;
+  flex: 1;
+  width: 230px;
+  height: 230px;
+  background-image: url(../img/tobias-reich-4uH2e12CMLI-unsplash.jpg);
+  background-size: 300px;
+  background-position: center;
+}
+
+.text-box {
+  height: 230px;
+  width: 230px;
+}
+p {
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  margin: 20px;
+}
+.fa-arrow-right {
+  color: black;
+  font-size: 60px;
+}
+/* ====FAN FAVOURITE==== */
+.fan-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: #b0b0b0;
+}
+.fan-text {
+  height: 100px;
+  margin: 30px;
+  margin-top: 60px;
+  color: black;
+  text-shadow: none;
+}
+img {
+  height: 600px;
+}
+.bike-1 {
+  margin-top: 50px;
+}
+.bike-2 {
+  margin-top: 600px;
+}
